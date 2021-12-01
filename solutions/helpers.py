@@ -4,11 +4,10 @@ from collections import deque
 from itertools import islice
 
 
-"""
-Courtesy of Chris Cunningham on the Tech-Art slack
-"""
-
 def timer(func):
+    """
+    Courtesy of Chris Cunningham on the Tech-Art slack
+    """
     @wraps(func)
     def wrapper(*args, **kwargs):
         start = perf_counter()
