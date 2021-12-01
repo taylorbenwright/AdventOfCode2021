@@ -2,7 +2,7 @@
 Day 1 Solution
 """
 from itertools import pairwise
-from lib.helpers import rolling_window
+from solutions.helpers import rolling_window
 
 
 def get_depth_measurements():
